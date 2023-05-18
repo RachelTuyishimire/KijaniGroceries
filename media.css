@@ -2,6 +2,42 @@
     *{
         padding: 0%;
     }
+  #buttons{
+    display: grid;
+    grid-template-rows: 2;
+    margin-bottom: 7%;
+  }
+  .navbar ul{
+    display: inline;
+    list-style: none;
+    gap: 1%;
+    margin-left: 1%;
+}
+
+
+  .DESCRIPTION{
+    display: grid;
+    grid-template-rows: 3;
+    margin-left: 0%;
+    padding-left: 2%;
+    margin-right: 0%;
+    /* display: flex;
+    gap: 3%;
+    margin-right: 4%; 
+    /* margin-left: 5%;  */
+  }
+  .description{
+    font-size: 19px;
+  }
+#mamamboga{
+  width: 300px;
+  border: none;
+  height:300px ;
+  border-radius: 15px;
+  margin-bottom: 6%;
+  
+ 
+}
     .navbar ul {
       gap: 10%;
       margin-left: 2%;
@@ -36,7 +72,7 @@
     }
   
     footer {
-      padding: 2% 0%;
+      padding: 2% 3%;
       width: 80%;
 
     }
@@ -51,7 +87,11 @@
       margin-top: 2%;
       margin-left: 10%;
     }
-  
+    #signup,
+    #login{
+      padding: 4%;
+    }
+
     .offers {
       grid-template-columns: 100%;
       gap: 5%;
@@ -73,6 +113,15 @@
     }
     .f-v{
         display: none !important;
+    }
+    #kijani{
+      font-size: 16px;
+    }
+    #buttons{
+      margin-top: 0.5%;
+    }
+    .available div{
+      background: none;
     }
   }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -144,6 +193,7 @@
     .search{
         margin: 2% 30% 1% 0%    
     }
+    
    
   }
   

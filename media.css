@@ -1,199 +1,198 @@
 @media (max-width: 767px) {
-    *{
-        padding: 0%;
-    }
-  #buttons{
-    display: grid;
-    grid-template-rows: 2;
-    margin-bottom: 7%;
+  *{
+      padding: 0%;
   }
-  .navbar ul{
-    display: inline;
-    list-style: none;
-    gap: 1%;
-    margin-left: 1%;
+#buttons{
+  display: grid;
+  grid-template-rows: 2;
+  margin-bottom: 7%;
+}
+.navbar ul{
+  display: inline;
+  list-style: none;
+  gap: 1%;
+  margin-left: 1%;
 }
 
 
-  .DESCRIPTION{
-    display: grid;
-    grid-template-rows: 3;
-    margin-left: 0%;
-    padding-left: 2%;
-    margin-right: 0%;
-    /* display: flex;
-    gap: 3%;
-    margin-right: 4%; 
-    /* margin-left: 5%;  */
-  }
-  .description{
-    font-size: 19px;
-  }
+.DESCRIPTION{
+  display: grid;
+  grid-template-rows: 3;
+  margin-left: 0%;
+  padding-left: 2%;
+  margin-right: 0%;
+  /* display: flex;
+  gap: 3%;
+  margin-right: 4%; 
+  /* margin-left: 5%;  */
+}
+.description{
+  font-size: 19px;
+}
 #mamamboga{
-  width: 300px;
-  border: none;
-  height:300px ;
-  border-radius: 15px;
-  margin-bottom: 6%;
+width: 300px;
+border: none;
+height:300px ;
+border-radius: 15px;
+margin-bottom: 6%;
+
+
+}
+  .navbar ul {
+    gap: 10%;
+    margin-left: 2%;
+  }
+
+  .signup {
+    margin-left: 10%;
+  }
+
+  .signup h1 {
+    font-size: 35px;
+  }
+
+  .signup form input {
+    padding: 2% 8%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+
+  .signup a button {
+    padding: 15px 45px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 6%;
+  }
+
+  footer ul {
+    /* gap: 5%; */
+    display: inline;
+    font-weight: 200;
+    line-height: 30px;
+  }
+
+  footer {
+    padding: 2% 3%;
+    width: 80%;
+
+  }
+  #items {
+    padding: 1% 0 1% 1%;
+    font-size: 20px;
+  }
+
+  .offers div a button,
+  .available div a button {
+    padding: 10px 25px;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  #signup,
+  #login{
+    padding: 4%;
+  }
+
+  .offers {
+    grid-template-columns: 100%;
+    gap: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .available {
+    grid-template-columns: 75%;
+    gap: 1%;
+    margin-left: 20%;
+    background-size: cover;
+    margin-bottom: 320%;
+  }
+  #home button {
+    padding: 15px 60px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+  }
+  .f-v{
+      display: none !important;
+  }
+  #kijani{
+    font-size: 16px;
+  }
+  #buttons{
+    margin-top: 0.5%;
+  }
+  .available div{
+    background: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar ul {
+    gap: 15%;
+    margin-left: 3%;
+  }
+
+  .signup {
+    margin-left: 15%;
+  }
+  #home button {
+    padding: 13px 30px;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 20%;
+  }
+
+  .signup h1 {
+    font-size: 40px;
+  }
+
+  .signup form input {
+    padding: 2% 9%;
+    margin-top: 1.5%;
+    margin-bottom: 3.5%;
+  }
+
+  .signup a button {
+    padding: 16px 50px;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-bottom: 7%;
+  }
+
+  footer ul {
+    gap: 7%;
+  }
+
+  footer {
+    padding: 2% 15%;
+  }
+
+  .offers div a button,
+  .available div a button {
+    padding: 11px 28px;
+    margin-top: 2.5%;
+    margin-left: 13%;
+  }
+  #items {
+    padding: 1% 0 2% 8%;
+    font-size: 22px;
+    margin: 0 6% 0 8%;
+  }
+
+  .offers {
+    margin-left: 7%;
+    margin-bottom: 7%;
+  }
+
+  .available {
+    margin-left: 7%;
+    margin-bottom: 25%;
+  }
+  #home{
+      margin-top: 120%;
+  }
+  
+  .search{
+      margin: 2% 30% 1% 0%    
+  }
   
  
 }
-    .navbar ul {
-      gap: 10%;
-      margin-left: 2%;
-    }
-  
-    .signup {
-      margin-left: 10%;
-    }
-  
-    .signup h1 {
-      font-size: 35px;
-    }
-  
-    .signup form input {
-      padding: 2% 8%;
-      margin-top: 1%;
-      margin-bottom: 3%;
-    }
-  
-    .signup a button {
-      padding: 15px 45px;
-      margin-right: 5%;
-      margin-left: 5%;
-      margin-bottom: 6%;
-    }
-  
-    footer ul {
-      /* gap: 5%; */
-      display: inline;
-      font-weight: 200;
-      line-height: 30px;
-    }
-  
-    footer {
-      padding: 2% 3%;
-      width: 80%;
-
-    }
-    #items {
-      padding: 1% 0 1% 1%;
-      font-size: 20px;
-    }
-  
-    .offers div a button,
-    .available div a button {
-      padding: 10px 25px;
-      margin-top: 2%;
-      margin-left: 10%;
-    }
-    #signup,
-    #login{
-      padding: 4%;
-    }
-
-    .offers {
-      grid-template-columns: 100%;
-      gap: 5%;
-      margin-left: 5%;
-      margin-bottom: 5%;
-    }
-  
-    .available {
-      grid-template-columns: 75%;
-      gap: 1%;
-      margin-left: 20%;
-      background-size: cover;
-      margin-bottom: 320%;
-    }
-    #home button {
-      padding: 15px 60px;
-      margin-left: 10%;
-      margin-bottom: 1%;
-    }
-    .f-v{
-        display: none !important;
-    }
-    #kijani{
-      font-size: 16px;
-    }
-    #buttons{
-      margin-top: 0.5%;
-    }
-    .available div{
-      background: none;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .navbar ul {
-      gap: 15%;
-      margin-left: 3%;
-    }
-  
-    .signup {
-      margin-left: 15%;
-    }
-  
-    .signup h1 {
-      font-size: 40px;
-    }
-  
-    .signup form input {
-      padding: 2% 9%;
-      margin-top: 1.5%;
-      margin-bottom: 3.5%;
-    }
-  
-    .signup a button {
-      padding: 16px 50px;
-      margin-right: 7%;
-      margin-left: 7%;
-      margin-bottom: 7%;
-    }
-  
-    footer ul {
-      gap: 7%;
-    }
-  
-    footer {
-      padding: 2% 15%;
-    }
-  
-    #items {
-      padding: 1% 0 2% 8%;
-      font-size: 22px;
-      margin: 0 6% 0 8%;
-    }
-  
-    .offers div a button,
-    .available div a button {
-      padding: 11px 28px;
-      margin-top: 2.5%;
-      margin-left: 13%;
-    }
-  
-    .offers {
-      margin-left: 7%;
-      margin-bottom: 7%;
-    }
-  
-    .available {
-      margin-left: 7%;
-      margin-bottom: 25%;
-    }
-    #home{
-        margin-top: 120%;
-    }
-    #home button {
-      padding: 13px 30px;
-      margin-left: 15%;
-      margin-bottom: 2%;
-      margin-top: 20%;
-    }
-    .search{
-        margin: 2% 30% 1% 0%    
-    }
-    
-   
-  }
-  
